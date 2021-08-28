@@ -43,7 +43,7 @@ class PyTUI(App):
         This is an action that will watch the show_menu attribute and is called when it changes.
         This will be part of the animation for when the menu appears or disappears.
         The arguments are:
-            - show_bar: a boolean representing the instance attribute show_menu which denotes whether the menu is
+            - show_bar: a boolean representing the class attribute show_menu which denotes whether the menu is
             being displayed or not.
         """
         self.menu.animate("layout_offset_x", 0 if show_bar else -40)
