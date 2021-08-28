@@ -1,6 +1,6 @@
 from textual.app import App
-from textual.widgets import Footer, Placeholder
 from textual.reactive import Reactive
+from textual.widgets import Footer, Placeholder
 
 from pythings.widgets import WelcomeScreen
 
@@ -41,4 +41,3 @@ class PyTUI(App):
 
     async def action_show_settings(self):
         self.show_settings = not self.show_settings
-
