@@ -33,7 +33,7 @@ class WelcomeScreen(Widget):
                     )
                 )
             ),
-            title="Welcome to PyThings",
+            title="Welcome to PyTUI",
         )
 
 

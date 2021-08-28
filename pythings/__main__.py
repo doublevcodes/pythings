@@ -1,4 +1,4 @@
-from .app import Pythings
+from .app import PyTUI
 
 if __name__ == "__main__":
-    Pythings.run()
+    PyTUI.run()
