@@ -1,8 +1,6 @@
 import textwrap
 from typing import Optional
-from rich.console import RenderableType, RenderResult, Console, ConsoleOptions
-from rich.style import StyleType
-from rich.panel import Panel
+
 from rich.align import Align, VerticalCenter
 from rich.console import Console, ConsoleOptions, RenderableType, RenderResult
 from rich.panel import Panel
@@ -95,6 +93,7 @@ class ContinueButton(Widget):
         Renders the ContinueButtonRenderable class under self.label, a reactive type.
         Allows a renderable widget.
         """
+
         return ContinueButtonRenderable(self.label, style=self.button_style)
 
     async def on_click(self, event: events.Click) -> None:
@@ -102,4 +101,5 @@ class ContinueButton(Widget):
         Event for when the Continue Button is clicked, under textual.events.Click
         Right now, it merely emits the ButtonPressed widget from Textual, with the instance passed in.
         """
+
         await self.emit(ButtonPressed(self))
