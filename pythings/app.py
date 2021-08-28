@@ -1,6 +1,6 @@
 from textual.app import App
-from textual.widgets import Footer, Placeholder
 from textual.reactive import Reactive
+from textual.widgets import Footer, Placeholder
 
 from pythings.widgets import WelcomeScreen
 

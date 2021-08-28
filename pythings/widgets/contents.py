@@ -1,4 +1,3 @@
-from rich.text import Text
 from textual.view import View
 from textual.widgets import Static
 

@@ -4,6 +4,9 @@ from rich.console import RenderableType, RenderResult, Console, ConsoleOptions
 from rich.style import StyleType
 from rich.panel import Panel
 from rich.align import Align, VerticalCenter
+from rich.console import Console, ConsoleOptions, RenderableType, RenderResult
+from rich.panel import Panel
+from rich.style import StyleType
 from textual import events
 from textual.reactive import Reactive
 from textual.widget import Widget
@@ -33,7 +36,7 @@ class WelcomeScreen(Widget):
                         [green]o888o            .8'         o888o        `YbodP'    o888o[/green]        [yellow]██████▀█[/yellow]
                                      [green].o..P'[/green]                                                [yellow]██████[/yellow]
                                      [green]`Y8P'[/green]
-                        """
+                        """  # noqa: E501
                     )
                 )
             ),

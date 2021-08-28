@@ -1,5 +1,5 @@
-from .welcome import WelcomeScreen, ContinueButton
 from .contents import Contents
+from .welcome import ContinueButton, WelcomeScreen
 
 __all__ = (
     "WelcomeScreen",
