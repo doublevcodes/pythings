@@ -18,7 +18,7 @@ taskipy = "^1.8.1"
 [tool.taskipy.tasks]
 start = "poetry run python -m pythings"
 precommit = "pre-commit install"
-precommit-run = "poetry run pre-commit run --all-files"
+precommit-run = "pre-commit run --all-files"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
