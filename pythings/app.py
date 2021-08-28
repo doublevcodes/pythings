@@ -6,7 +6,6 @@ from pythings.widgets import WelcomeScreen
 
 
 class PyTUI(App):
-
     show_menu = Reactive(False)
     show_settings = Reactive(False)
 
