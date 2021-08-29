@@ -5,7 +5,7 @@ on: [push, pull_request]
 env:
   # Configure pip to cache dependencies and do a user install
   PIP_NO_CACHE_DIR: false
-  PIP_USER: 1
+  PIP_USER: 0
   PYTHON_VERSION: 3.9
 
   # Make sure package manager does not use virtualenv
